@@ -3,7 +3,7 @@ import TopicList from '@/components/topics/topic-list'
 import { Divider } from '@nextui-org/react'
 import PostList from '@/components/posts/post-list'
 import { fetchTopPosts } from '@/db/queries/posts'
-import Head from 'next/head'
+import Footer from "@/components/footer";
 
 export const dynamic = "force-dynamic"
 
@@ -14,6 +14,7 @@ export default function Home() {
       <div className='col-span-3'>
         <h1 className='text-xl m-2'>Top Posts</h1>
         <PostList fetchData={fetchTopPosts} />
+        <Footer />
       </div>
       <div className='border shadow py-3 px-2'>
         <TopicCreateForm />
