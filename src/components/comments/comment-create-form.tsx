@@ -46,7 +46,7 @@ export default function CommentCreateForm({
         />
 
         {formState.errors._form ? (
-          <div className="p-2 bg-red-200 border rounded border-red-400">
+          <div className="p-2 bg-red-800 border rounded border-red-400">
             {formState.errors._form?.join(", ")}
           </div>
         ) : null}
