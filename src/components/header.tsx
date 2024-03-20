@@ -8,6 +8,7 @@ import {
 import HeaderAuth from '@/components/header-auth'
 import SearchInput from '@/components/search-input'
 import { Suspense } from 'react'
+import GithubButton from '@/components/github-button'
 
 export default function Header() {
     
@@ -26,6 +27,7 @@ export default function Header() {
             </NavbarContent>
 
             <NavbarContent justify='end'>
+                <GithubButton />
                 <HeaderAuth />
             </NavbarContent>
         </Navbar>
