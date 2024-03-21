@@ -13,13 +13,13 @@
 ### Install and Run the Project
 
 ```
-1. git clone https://github.com/cyshen11/open-brewery-react-app.git
+git clone https://github.com/cyshen11/open-brewery-react-app.git
 ```
 ```
-2. npm install
+npm install
 ```
 ```
-3. npm start
+npm start
 ```
 
 ---
