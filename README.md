@@ -13,7 +13,7 @@
 ### Install and Run the Project
 
 ```
-git clone https://github.com/cyshen11/open-brewery-react-app.git
+git clone https://github.com/cyshen11/next-js-discuss.git
 ```
 ```
 npm install
